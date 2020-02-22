@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Brian Sheridan",
+  "classifications": [ "AWS", "Lambda", "Function" ],
+  "identity": "Sheridan.LambdaWithDI",
+  "name": "Lambda Function with Dependency Injection",
+  "shortName": "sheridan.lambdawithdi",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

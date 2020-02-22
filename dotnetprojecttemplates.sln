@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LambdaWithDI", "LambdaWithDI", "{C5A035FB-536C-4C89-8046-DFD186869AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdawithDI.Functions", "LambdawithDI\src\LambdawithDI.Functions\LambdawithDI.Functions.csproj", "{BF2301C4-3AA1-4AC8-AD0A-0732042BEE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdawithDI.Tests", "LambdawithDI\test\LambdawithDI.Tests\LambdawithDI.Tests.csproj", "{D8A12D18-B657-49DA-828A-B9634372C690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF2301C4-3AA1-4AC8-AD0A-0732042BEE73} = {C5A035FB-536C-4C89-8046-DFD186869AE7}
+		{D8A12D18-B657-49DA-828A-B9634372C690} = {C5A035FB-536C-4C89-8046-DFD186869AE7}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2301C4-3AA1-4AC8-AD0A-0732042BEE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2301C4-3AA1-4AC8-AD0A-0732042BEE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2301C4-3AA1-4AC8-AD0A-0732042BEE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2301C4-3AA1-4AC8-AD0A-0732042BEE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A12D18-B657-49DA-828A-B9634372C690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A12D18-B657-49DA-828A-B9634372C690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A12D18-B657-49DA-828A-B9634372C690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A12D18-B657-49DA-828A-B9634372C690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
